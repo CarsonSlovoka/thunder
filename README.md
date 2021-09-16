@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
-    <img alt="thunder" src="asset/img/site/favicon.svg"/>
+    <img alt="thunder" src="asset/img/site/favicon.svg" width="384"/>
   </a>
 </p>
 
