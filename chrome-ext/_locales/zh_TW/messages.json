@@ -1,0 +1,11 @@
+{
+  "UnknownCommand": {
+    "message": "Unknown command: $CMD_NAME$",
+    "description": "Unknown command",
+    "placeholders": {
+      "cmd_name": {
+        "content": "$1"
+      }
+    }
+  }
+}
