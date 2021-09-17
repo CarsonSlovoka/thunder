@@ -1,0 +1,10 @@
+{
+  "name": "com.google.chrome.extension.thunder",
+  "description": "Open the explorer.exe",
+  "path": "bin//main.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://hbnenneocdpnpcedmilcciifihddkagg/",
+    "chrome-extension://nbjjflbnekmabedahdolabcpahfjojjb/"
+  ]
+}

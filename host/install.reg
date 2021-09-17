@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; There is one defect to using reg. You have to give the absolute path.
+[HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts\com.google.chrome.extension.thunder]
+@="C:\\path\\to\\manifest.json"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Google\Chrome\NativeMessagingHosts\com.google.chrome.extension.thunder]
+@="C:\\path\\to\\manifest.json"
