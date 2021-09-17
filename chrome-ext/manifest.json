@@ -8,7 +8,7 @@
     "nativeMessaging"
   ],
   "action": {
-    "default_popup": "templates/popup.html"
+    "default_popup": "tmpl/popup.html"
   },
   "icons": {
     "16": "static/image/favicon/16.png",

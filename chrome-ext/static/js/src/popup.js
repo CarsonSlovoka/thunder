@@ -1,7 +1,7 @@
 (() => {
   chrome.windows.create({
       focused: true,
-      url: 'templates/main.html',
+      url: 'tmpl/main.html',
       type: 'popup',
       width: 400, height: 600,
       // left: 100, top:100
