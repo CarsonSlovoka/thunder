@@ -1,0 +1,18 @@
+{
+  "name": "Thunder",
+  "description": "Run the native program by the chrome extension.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": [
+    "nativeMessaging"
+  ],
+  "action": {
+    "default_popup": "templates/popup.html"
+  },
+  "icons": {
+    "16": "static/image/favicon/16.png",
+    "32": "static/image/favicon/32.png",
+    "48": "static/image/favicon/48.png",
+    "128": "static/image/favicon/128.png"
+  }
+}
