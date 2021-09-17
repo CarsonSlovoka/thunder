@@ -4,32 +4,36 @@
   <title>Thunder</title>
   <meta charset="utf-8">
   <script type="module" src="../static/js/src/main.js"></script>
+  <meta data-include-html="partials/head/all-css.html">
 </head>
 <body>
 
-<fieldset>
-  <legend>Input Parameters</legend>
-  <label>file path<input type="text"></label>
-</fieldset>
-
-<fieldset>
-  <legend>Short Connection Test</legend>
-  <button id="btn-short-conn">Test</button>
-</fieldset>
-
-<fieldset>
-  <legend>Long Connection Test</legend>
-  <button id="btn-long-conn">Build Connection</button>
-  <fieldset disabled>
-    <button id="btn-post-msg">Post Message</button>
-    <button id="btn-disconnect">Disconnect</button>
+<body class="container">
+  <fieldset>
+    <legend>Input Parameters</legend>
+    <label class="form-label">file path
+      <input type="text" autocomplete="off" class="form-control" id="inputStaticDir"/>
+    </label>
   </fieldset>
-</fieldset>
 
-<fieldset>
-  <legend>Log</legend>
-  <pre id="log"></pre>
-</fieldset>
+  <fieldset class="mt-3">
+    <legend>Short Connection Test</legend>
+    <button id="btn-short-conn">Test</button>
+  </fieldset>
 
+  <fieldset class="mt-3">
+    <legend>Long Connection Test</legend>
+    <button id="btn-long-conn">Build Connection</button>
+    <fieldset class="mt-2" disabled>
+      <button id="btn-post-msg">Post Message</button>
+      <button id="btn-disconnect">Disconnect</button>
+    </fieldset>
+  </fieldset>
+
+  <fieldset class="mt-3">
+    <legend>Log</legend>
+    <pre id="log"></pre>
+  </fieldset>
+</body>
 </body>
 </html>

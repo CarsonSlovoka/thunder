@@ -1,7 +1,11 @@
+import * as include from "../pkg/tmpl/include.js"
+
 const NativeName = "com.google.chrome.extension.thunder";
 
 (() => {
-  window.onload = () => {
+  window.onload = async () => {
+    await include.includeHTML(undefined, {})
+
     const log = document.querySelector(`#log`)
     const input = document.querySelector(`input`)
     let filepath = ""
