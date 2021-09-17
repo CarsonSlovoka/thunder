@@ -26,7 +26,7 @@
 
 ## Purpose
 
-Execute the program by the command from the input parameter coming from the chrome extension app, and send the response
+Execute the program by the command from the input parameter coming from the Chrome extension app, and send the response
 to it.
 
 ## 🤔 How to do it?
@@ -34,6 +34,10 @@ to it.
 Use the [Native messaging host](https://developer.chrome.com/docs/apps/nativeMessaging/#native-messaging-host) to
 communicate the native program
 
+## 📜 [Release Note](doc/release)
+
+- [en](doc/release/README.md)
+- [zh_TW](doc/release/README.zh_TW.md)
 
 ## Reference
 
